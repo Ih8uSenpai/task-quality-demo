@@ -37,8 +37,8 @@ jobs:
         run: >
           mvn -B sonar:sonar
           -Dsonar.host.url=https://sonarcloud.io
-          -Dsonar.organization=mipichikimicci33uwu-ai
-          -Dsonar.projectKey=mipichikimicci33uwu-ai_task-quality-demo
+          -Dsonar.organization=Ih8uSenpai
+          -Dsonar.projectKey=Ih8uSenpai_task-quality-demo
           -Dsonar.sources=src/main/java
           -Dsonar.tests=src/test/java
           -Dsonar.java.binaries=target/classes
